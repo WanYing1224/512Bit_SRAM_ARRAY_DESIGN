@@ -1,0 +1,37 @@
+radix 1 1 1 1 1 1 1 1 1
+io i i i i i i i i i
+vname word_line  CS1  CS0  write_data  pre_en  write_enable  read_en  pre_en_SA  sense_en
+tunit 1ns
+trise 0.01
+tfall 0.01
+vih 1.0
+vil 0.0
+*        word_line || CS1 || CS0 || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en
+0           0          0      0          0           1           0            1           1            0; Operation1: 
+2           0          0      0          0           0           0            1           1            0; Step1:
+4           0          0      1          0           1           1            1           1            0; Step2:
+5           1          0      1          0           1           1            1           1            0; Step3:
+6           0          0      0          0           1           0            1           1            0; Step4:
+
+*        word_line || CS1 || CS0 || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en
+7           0          0      0          1           0           0            1           1            0; Operation2: 
+8           0          1      0          1           1           1            1           1            0;
+9           1          1      0          1           1           1            1           1            0;
+10          0          0      0          1           1           0            1           1            0;
+
+*        word_line || CS1 || CS0 || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en
+11          0          0      0          0           0           0            1           1            0; Operation3: 
+12          0          0      1          0           0           0            1           0            0;
+13          1          0      1          0           1           0            0           1            0;   
+14          0          0      0          0           1           0            1           1            1;
+
+*        word_line || CS1 || CS0 || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en
+15          0          0      0          0           0           0            1           1            0; Operation4: 
+16          0          1      0          0           0           0            1           0            0;
+17          1          1      0          0           1           0            0           1            0;
+18          0          0      0          0           1           0            1           1            1;
+
+
+
+
+
