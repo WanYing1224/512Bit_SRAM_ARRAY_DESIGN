@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stimuliset>
+    <namedstimuli>
+        <stimuliname>A0</stimuliname>
+        <timeStamp>09/04/2026;11:34:45:PM</timeStamp>
+        <simStopTime>1n</simStopTime>
+        <isourceResistorValue>1k</isourceResistorValue>
+        <libname></libname>
+        <srctype>bit</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vbit</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>data</cdfname>
+                <prompt>Pattern Parameter data</prompt>
+                <datatype>string</datatype>
+                <value>0110</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>rptstart</cdfname>
+                <prompt>Pattern Parameter rptstart</prompt>
+                <datatype>string</datatype>
+                <value>1</value>
+                <defvalue>1</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>rpttimes</cdfname>
+                <prompt>Pattern Parameter rpttimes</prompt>
+                <datatype>string</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>tr</cdfname>
+                <prompt>Rise time</prompt>
+                <datatype>string</datatype>
+                <value>10p</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>tf</cdfname>
+                <prompt>Fall time</prompt>
+                <datatype>string</datatype>
+                <value>10p</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>per</cdfname>
+                <prompt>Period</prompt>
+                <datatype>string</datatype>
+                <value>1n</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>A1</stimuliname>
+        <timeStamp>09/04/2026;11:34:40:PM</timeStamp>
+        <simStopTime>1n</simStopTime>
+        <isourceResistorValue>1k</isourceResistorValue>
+        <libname></libname>
+        <srctype>bit</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vbit</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>data</cdfname>
+                <prompt>Pattern Parameter data</prompt>
+                <datatype>string</datatype>
+                <value>0011</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>rptstart</cdfname>
+                <prompt>Pattern Parameter rptstart</prompt>
+                <datatype>string</datatype>
+                <value>1</value>
+                <defvalue>1</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>rpttimes</cdfname>
+                <prompt>Pattern Parameter rpttimes</prompt>
+                <datatype>string</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>tr</cdfname>
+                <prompt>Rise time</prompt>
+                <datatype>string</datatype>
+                <value>10p</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>tf</cdfname>
+                <prompt>Fall time</prompt>
+                <datatype>string</datatype>
+                <value>10p</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>per</cdfname>
+                <prompt>Period</prompt>
+                <datatype>string</datatype>
+                <value>1n</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>VDD</stimuliname>
+        <timeStamp>09/04/2026;11:8:28:PM</timeStamp>
+        <simStopTime>1n</simStopTime>
+        <isourceResistorValue>1k</isourceResistorValue>
+        <libname></libname>
+        <srctype>dc</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vdc</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>FNpairs</cdfname>
+                <prompt>Number of noise/freq pairs</prompt>
+                <datatype>int</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>vdc</cdfname>
+                <prompt>DC voltage</prompt>
+                <datatype>string</datatype>
+                <value>1</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>VSS</stimuliname>
+        <timeStamp>09/04/2026;11:8:33:PM</timeStamp>
+        <simStopTime>1n</simStopTime>
+        <isourceResistorValue>1k</isourceResistorValue>
+        <libname></libname>
+        <srctype>dc</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vdc</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>FNpairs</cdfname>
+                <prompt>Number of noise/freq pairs</prompt>
+                <datatype>int</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>vdc</cdfname>
+                <prompt>DC voltage</prompt>
+                <datatype>string</datatype>
+                <value>0</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+</stimuliset>
