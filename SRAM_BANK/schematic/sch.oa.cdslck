@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      yluo4810
+HostName                       viterbi-scf02.vlab.usc.edu
+ProcessIdentifier              2741552
+ProcessCreationTime_UTC        1775897176
+ProcessCreationTime_Readable   Sat Apr 11 01:46:16 2026 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/yluo4810@vlab.usc.edu/work_gpdk045/EE577a_S26/SRAM_BANK/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat Apr 11 03:21:17 2026 PDT
