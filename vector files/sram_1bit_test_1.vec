@@ -1,0 +1,35 @@
+radix 1 1 1 1 1 1 1
+io i i i i i i i
+vname word_line  write_data  pre_en  write_enable  read_en  pre_en_SA  sense_en
+tunit 1ns
+trise 0.005
+tfall 0.005
+vih 1.0
+vil 0.0
+*        word_line || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en  write 0 -- write 0
+0           0              0           1           0            1           1            0; Operation1: 
+2           0              0           0           0            1           1            0; Step1:
+4           0              0           1           1            1           1            0; Step2:
+5           1              0           1           1            1           1            0; Step3:
+6           0              0           1           0            1           1            0; Step4:
+
+*        word_line || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en read 0
+7           0              0           0           0            1           1            0; Operation3: 
+8           0              0           0           0            1           0            0;
+9           1              0           1           0            0           1            0;   
+10          0              0           1           0            1           1            1;
+
+*        word_line || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en write 1
+11           0              1           0           0            1           1            0; Operation2: 
+12           0              1           1           1            1           1            0;
+13           1              1           1           1            1           1            0;
+14          0              1           1           0            1           1            0;
+
+
+
+*        word_line || write_data || pre_en || write_enable || read_en || pre_en_SA || sense_en read 1
+15          0              0           0           0            1           1            0; Operation4: 
+16          0              0           0           0            1           0            0;
+17          1              0           1           0            0           1            0;
+18          0              0           1           0            1           1            1;
+  
