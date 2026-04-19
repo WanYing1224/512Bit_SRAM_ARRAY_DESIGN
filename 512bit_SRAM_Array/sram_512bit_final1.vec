@@ -1,6 +1,6 @@
 radix 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 io i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i
-vname A<4> A<3> A<2> A<1> A<0> Ab<4> Ab<3> Ab<2> Ab<1> Ab<0> decoder_en precharge_en write_en read_en precharge_en_SA sense_en clk rst data_in<15> data_in<14> data_in<13> data_in<12> data_in<11> data_in<10> data_in<9> data_in<8> data_in<7> data_in<6> data_in<5> data_in<4> data_in<3> data_in<2> data_in<1> data_in<0>
+vname A<4> A<3> A<2> A<1> A<0> A_bar<4> A_bar<3> A_bar<2> A_bar<1> A_bar<0> decoder_en precharge_en write_en read_en precharge_en_SA sense_en clk rst data_in<15> data_in<14> data_in<13> data_in<12> data_in<11> data_in<10> data_in<9> data_in<8> data_in<7> data_in<6> data_in<5> data_in<4> data_in<3> data_in<2> data_in<1> data_in<0>
 tunit 1ns
 trise 0.005
 tfall 0.005

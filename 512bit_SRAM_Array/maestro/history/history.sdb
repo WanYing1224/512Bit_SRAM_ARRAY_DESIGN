@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Apr 13 23:46:17 2026</timestamp>
-			<uuid>{57b88620-46e6-4855-a6b7-747134557ee6}</uuid>
+			<timestamp>Apr 17 04:05:51 2026</timestamp>
+			<uuid>{c1f66c2c-ccfe-4c28-a37b-0b2ece1f3a3d}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/yluo4810@vlab.usc.edu/work_gpdk045/EE577a_S26/512bit_SRAM_Array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/home/linwanyi@vlab.usc.edu/work_gpdk045/EE577a_S26/512bit_SRAM_Array/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/home/yluo4810@vlab.usc.edu/work_gpdk045/EE577a_S26/512bit_SRAM_Array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/home/linwanyi@vlab.usc.edu/work_gpdk045/EE577a_S26/512bit_SRAM_Array/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/home/yluo4810@vlab.usc.edu/simulation/EE577a_S26/512bit_SRAM_Array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/home/linwanyi@vlab.usc.edu/simulation/EE577a_S26/512bit_SRAM_Array/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/EE577a_S26/512bit_SRAM_Array/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>
