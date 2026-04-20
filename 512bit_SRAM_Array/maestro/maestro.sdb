@@ -30,22 +30,7 @@
 					</option>
 				</tooloptions>
 				<outputs>
-					<output>/Aout&lt;4:0&gt;
-						<evalType>point</evalType>
-					</output>
-					<output>/About&lt;4:0&gt;
-						<evalType>point</evalType>
-					</output>
-					<output>/Aout&lt;4:2&gt;
-						<evalType>point</evalType>
-					</output>
-					<output>/About&lt;4:2&gt;
-						<evalType>point</evalType>
-					</output>
-					<output>/Aout&lt;1:0&gt;
-						<evalType>point</evalType>
-					</output>
-					<output>/About&lt;1:0&gt;
+					<output>/out2&lt;15:0&gt;
 						<evalType>point</evalType>
 					</output>
 				</outputs>
