@@ -59,6 +59,17 @@ The memory block is structured as a **32-word × 16-bit** (512 bits total) SRAM 
   |                                         +-----------------------+           |
   +-----------------------------------------------------------------------------+
 ```
+<p align="center">
+  <img src="Images/512-bit SRAM Array Schematic.png" alt="512-bit SRAM Top-Level Schematic" width="1000"/>
+  <br/>
+  <em>Figure 1: Top-Level 512-Bit SRAM Array Schematic Design</em>
+</p>
+
+<p align="center">
+  <img src="Images/512-bit SRAM Layout.png" alt="512-bit SRAM Top-Level Layout" width="1000"/>
+  <br/>
+  <em>Figure 2: Top-Level 512-Bit SRAM Array Layout Design</em>
+</p>
 
 ---
 
